@@ -9,3 +9,6 @@ class Ci(Record):
             # To Be Done
             pass
 
+    def save(self, ci_manager):
+        return ci_manager.save(self)
+
